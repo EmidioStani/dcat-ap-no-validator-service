@@ -31,7 +31,7 @@ The input may also contain a configuration record containing two options:
 - `expand` (boolean: `true`/`false`): if set to `true`, the validator will try to fetch remote triples referenced to in the data-graph.
 - `includeExpandedTriples` (boolean: true/false): if set to `true`, the validator will include the remote triples and the ontologies in the response.
 
-Ref [the openAPI specification](./dcat_ap_no_validator_service.yaml). An example config record:
+Ref [the openAPI specification](./dcat-ap-no-validator-service.yaml). An example config record:
 
 ```json
 {
